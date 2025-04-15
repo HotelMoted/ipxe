@@ -1,6 +1,6 @@
 /*
- * Copyright © 2018 Broadcom. All Rights Reserved. 
- * The term “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.
+ * Copyright Â© 2018 Broadcom. All Rights Reserved. 
+ * The term â€œBroadcomâ€ refers to Broadcom Inc. and/or its subsidiaries.
 
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of version 2 of the GNU General Public License as published by the

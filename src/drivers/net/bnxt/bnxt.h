@@ -1,6 +1,6 @@
 /*
- * Copyright © 2018 Broadcom. All Rights Reserved. 
- * The term ìBroadcomî refers to Broadcom Inc. and/or its subsidiaries.
+ * Copyright ¬© 2018 Broadcom. All Rights Reserved. 
+ * The term ‚ÄúBroadcom‚Äù refers to Broadcom Inc. and/or its subsidiaries.
 
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of version 2 of the GNU General Public License as published by the
@@ -150,7 +150,7 @@ union dma_addr64_t {
 #define DEFAULT_NUMBER_OF_RX_RINGS              0x01
 #define DEFAULT_NUMBER_OF_RING_GRPS             0x01
 #define DEFAULT_NUMBER_OF_STAT_CTXS             0x01
-#define NUM_RX_BUFFERS                          8
+#define NUM_RX_BUFFERS                          2
 #define MAX_RX_DESC_CNT                         16
 #define MAX_TX_DESC_CNT                         16
 #define MAX_CQ_DESC_CNT                         64

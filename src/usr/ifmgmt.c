@@ -302,5 +302,15 @@ int ifconf ( struct net_device *netdev,
 		 ( configurator ? configurator->name : "" ),
 		 ( configurator ? "] " : "" ),
 		 netdev->name, netdev->ll_protocol->ntoa ( netdev->ll_addr ) );
+
+
+	if ( netdev->dev && netdev->dev->driver_name ) {
+		printf ( " [Driver: %s PCI: %04x:%04x]",
+			netdev->dev->driver_name,
+			netdev->dev->desc.vendor,
+			netdev->dev->desc.device );
+	}
+
+
 	return ifpoller_wait ( netdev, configurator, timeout, ifconf_progress );
 }
